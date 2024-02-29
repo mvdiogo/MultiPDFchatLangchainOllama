@@ -4,6 +4,7 @@ This repository contains a Python software that utilizes Streamlit for a user in
 
 ### Requirements
 - Python 3.x
+- Ollama
 - Streamlit
 - langchain
 - langchain_community
@@ -13,19 +14,19 @@ This repository contains a Python software that utilizes Streamlit for a user in
 ### Installation
 1. Clone this repository to your local machine.
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/mvdiogo/MultiPDFchatLangchainOllama.git
    ```
 2. Navigate to the project directory.
    ```bash
-   cd your-repo
+   cd MultiPDFchatLangchainOllama
    ```
 3. Install the required Python packages.
    ```bash
    pip install -r requirements.txt
    ```
-4. Install and configure [pgvector](https://github.com/pgvector/pgvector) on your computer.
+4. Install and configure [pgvector](https://github.com/pgvector/pgvector) on your computer and python-psycopg2.
    ```bash
-	sudo apt-get install build-dep python-psycopg2
+	sudo apt-get install python-psycopg2
    ```
 
 
